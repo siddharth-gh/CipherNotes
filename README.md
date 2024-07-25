@@ -15,11 +15,11 @@ Features
 Technologies Used
 -----------------
 
--   **Frontend**: React, Redux, Material-UI
+-   **Frontend**: React, Redux, iconify
 -   **Backend**: Node.js, Express.js
 -   **Database**: MongoDB
 -   **Authentication**: JWT (JSON Web Token)
--   **Encryption**: Crypto.js
+-   **Encryption**: Bcrypt.js
 
 Installation
 ------------
@@ -35,8 +35,6 @@ Installation
 
     sh
 
-    Copy code
-
     `git clone https://github.com/yourusername/ciphernotes.git
     cd ciphernotes`
 
@@ -44,18 +42,10 @@ Installation
 
     -   Backend
 
-        sh
-
-        Copy code
-
         `cd backend
         npm install`
 
     -   Frontend
-
-        sh
-
-        Copy code
 
         `cd ../frontend
         npm install`
@@ -63,10 +53,6 @@ Installation
 3.  **Environment Variables**
 
     Create a `.env` file in the `backend` directory and add the following:
-
-    makefile
-
-    Copy code
 
     `PORT=5000
     MONGODB_URI=your_mongodb_connection_string
@@ -76,53 +62,15 @@ Installation
 
     -   Start the backend server
 
-        sh
-
-        Copy code
-
         `cd backend
         npm start`
 
     -   Start the frontend development server
 
-        sh
-
-        Copy code
-
         `cd ../frontend
         npm start`
 
     The application should now be running on `http://localhost:3000`.
-
-Project Structure
------------------
-
-bash
-
-Copy code
-
-`ciphernotes/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   ├── utils/
-│   ├── server.js
-│   └── .env
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── redux/
-│   │   ├── utils/
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── ...
-│   └── .env
-├── README.md
-└── package.json`
 
 Usage
 -----
