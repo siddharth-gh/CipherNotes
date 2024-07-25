@@ -1,0 +1,112 @@
+# Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+ENV.bak/
+*.env
+*.venv
+.env
+.venv
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+target/
+build/
+*.log
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+log/
+tmp/
+*.log
+
+# Visual Studio
+.vscode/
+*.code-workspace
+.vs/
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.backup
+*.orig
+*.save
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Text editors
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+*.sublime
