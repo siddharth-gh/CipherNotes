@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    flex-direction: column;
+    // background-color: red;
+
+    main {
+        margin-top: 50px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
