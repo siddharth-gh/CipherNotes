@@ -35,8 +35,7 @@ Installation
 
     sh
 
-    `git clone https://github.com/yourusername/ciphernotes.git
-    cd ciphernotes`
+    `git clone https://github.com/siddharth-gh/cipherNotes`
 
 2.  **Install dependencies**
 
